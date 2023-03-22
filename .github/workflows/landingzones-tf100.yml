@@ -13,8 +13,8 @@ on:
       - '_pictures/**'
       - 'README.md'
       - 'CHANGELOG.md'
-  schedule:
-    - cron:  '0 3 * * *'
+  #schedule:
+  #  - cron:  '0 3 * * *'
 
 env:
   TF_CLI_ARGS: '-no-color'
